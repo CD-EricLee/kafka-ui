@@ -189,9 +189,20 @@
                                     <goal>pnpm</goal>
                                 </goals>
                                 <configuration>
+                                    <pnpmInheritsProxyConfigFromMaven>false</pnpmInheritsProxyConfigFromMaven>
                                     <arguments>gen:sources</arguments>
                                 </configuration>
                             </execution>
+<!--                            <execution>-->
+<!--                                <id>pnpm start</id>-->
+<!--                                <goals>-->
+<!--                                    <goal>pnpm</goal>-->
+<!--                                </goals>-->
+<!--                                <configuration>-->
+<!--                                    <arguments>start</arguments>-->
+<!--                                    <pnpmInheritsProxyConfigFromMaven>false</pnpmInheritsProxyConfigFromMaven>-->
+<!--                                </configuration>-->
+<!--                            </execution>-->
                         </executions>
                     </plugin>
                     <plugin>
