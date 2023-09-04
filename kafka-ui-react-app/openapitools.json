@@ -19,6 +19,9 @@
           "object": "any"
         }
       }
+    },
+    "repository": {
+      "downloadUrl": "http://your.proxy.server/nexus/content/groups/public/${groupId}/${artifactId}/${versionName}/${artifactId}-${versionName}.jar"
     }
   }
 }
